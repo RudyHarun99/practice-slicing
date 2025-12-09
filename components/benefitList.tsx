@@ -8,9 +8,7 @@ function BenefitList({ el }: { el: string }) {
         src="./check.png"
         alt="check icon"
       />
-      <p
-        className="text-xs text-gray-600"
-      >{el}</p>
+      <p className="text-xs text-gray-600">{el}</p>
     </div>
   )
 }
